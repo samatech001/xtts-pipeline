@@ -77,7 +77,6 @@ WORKDIR /app
 RUN mkdir -p /app/outputs /app/numba_cache /app/models/ollama
 
 # Copy application files
-COPY pipeline.py     .
 COPY api.py          .
 COPY entrypoint.sh   .
 RUN chmod +x entrypoint.sh
