@@ -4,7 +4,6 @@
 #  Verify tag at: https://hub.docker.com/r/nvidia/cuda/tags
 # ═══════════════════════════════════════════════════════════════
 FROM nvidia/cuda:12.8.0-cudnn9-devel-ubuntu22.04
-
 # ── Environment ─────────────────────────────────────────────────
 ENV DEBIAN_FRONTEND=noninteractive
 ENV PYTHONUNBUFFERED=1
